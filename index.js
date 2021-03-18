@@ -13,7 +13,7 @@ const courses = [
 {id:3, name: "course3"},
 ];
 
-//all courses
+//display all courses
 app.get('/api/courses', (req,res)=> {
     console.log("welcome to homepage");
     res.send(courses);
